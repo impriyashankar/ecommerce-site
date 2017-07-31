@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2017, 6:27:40 PM
+    Author     : priya
+*/
+/**
+{
+    margin:0;
+    padding:0;
+}*/
+.wrapper
+{
+    min-height:100%;
+    position:relative;
+}
+
+#nav-i{
+    margin-bottom:0;
+}
+#banner-image
+{
+    min-height:600px;
+    background:url('myimages/intro-bg_1.jpg') center center;
+    background-size:cover;
+    
+    padding-top:150px;
+    padding-bottom:150px;
+    
+    
+}
+#banner-content
+{
+    min-height:300px;
+    background-color:rgba(0,0,0,0.7);
+    text-align:center;
+    color:#fff;
+    max-width:660px;
+    margin:auto;
+    padding:4%;
+}
+
+#banner-content>a>button{
+    margin-top:20px;
+}
+
+.ftr{
+min-height:40px;
+width:100%;
+    background-color:#101010;
+    color:#9d9d9d;
+    text-align:center;
+    padding:10px 0px;
+    font-size:0.8em;
+    position:absolute;
+    bottom:0;
+    margin-bottom:0;
+    
+}
+
+.pnl,#cont-body,#pnl2,#pnl3{
+    position:relative;
+        top:50px;
+}
+
+
+.pnl
+{
+    padding-left:40%;
+}
+
+#pnl2{
+    /*
+    width:50%;
+    max-width:100%;
+    margin:auto;*/
+    margin-top:30px;
+}
+table>tbody>#last-row{
+    background-color:#f2f2f2;
+}
+
+
+.form-control{
+    width:45%;
+}
+
+#item-coll
+{
+    text-align:center;
+    margin-bottom:20px;
+}
+#item-coll>.item>.inner-item{
+    border:1px solid #dedede;
+}
+#item-coll>.item{
+    margin-top:20px;
+}
+
+#item-coll>.item>.inner-item>img{
+  
+    margin-bottom:20px;
+    max-width:100%;
+    
+}
+#item-coll>.item>.inner-item>button{
+    width:90%;
+    margin-bottom:20px;
+     font-size:1.1rem;
+}
+
+#item-coll>.item>.inner-item>.img-caption>p:nth-child(2){
+    font-size:1.1rem;
+}
+
+#item-coll>.item>.inner-item>.img-caption>p:first-child{
+    font-size:1.9rem;
+}
+
+@media(min-width:425px)
+{
+    #pnl3{
+        display:none;
+    }
+}
+@media(max-width:424px)
+{
+    #pnl3
+    {
+        display:block;
+    }
+    #pnl2
+    {
+        display:none;
+    }
+}
