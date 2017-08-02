@@ -6,10 +6,11 @@
  * and open the template in the editor.
  */
 
-require 'includes/common.php';
+
 
 function check_if_added_to_cart($item_id)
 {
+require 'includes/common.php';
 $user_id= $_SESSION['email'];
 
 //return (isset($_SESSION['email']));
