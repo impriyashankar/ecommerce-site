@@ -53,7 +53,7 @@ require 'includes/common.php';
                             ?>
                     
                         
-                            <button class="btn btn-primary disabled">Added to Cart</button>
+                            <a href="#" class="btn btn-block btn-success disabled">Added to Cart</a>
                         <?php 
                         
                         } else { ?>
